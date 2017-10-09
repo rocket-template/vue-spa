@@ -11,8 +11,8 @@
 					<slot></slot>
 				</div>
 				<div class="modal-footer">
-					<button @click="cancelFunc()" type="button" v-if="!modalConfig.isCloseBtnHide"  class="btn btn-default">{{modalConfig.cancelStr || 'Cancel'}}</button>
-					<button @click="applyFunc()" type="button" class="btn btn-primary">{{modalConfig.applyStr || 'Apply'}}</button>
+					<button @click="cancelFunc()" type="button" v-if="!modalConfig.isCloseBtnHide"  class="btn btn-default">{{modalConfig.cancelStr}}</button>
+					<button @click="applyFunc()" type="button" class="btn btn-primary">{{modalConfig.applyStr}}</button>
 				</div>
 			</div>
 		</div>
