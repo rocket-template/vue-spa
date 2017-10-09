@@ -5,7 +5,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button @click="hide()" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title">{{modalConfig.title || 'Modal title'}}</h4>
+					<h4 class="modal-title">{{modalConfig.title}}</h4>
 				</div>
 				<div class="modal-body">
 					<slot></slot>

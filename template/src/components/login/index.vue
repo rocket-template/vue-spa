@@ -25,7 +25,7 @@
 						<el-button type="primary" @click="submitForm('ruleForm')">提交</el-button>
 					</el-form-item>
 				</el-form>
-				<div class="login-error" v-show="show">{{msg || '用户名或者密码错误'}}</div>
+				<div class="login-error" v-show="show">{{msg}}</div>
 			</el-col>
 		</el-row>
 		<div class='login-footer'>
