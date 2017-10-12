@@ -48,7 +48,7 @@
     "minimist": "^1.2.0",
     "ora": "^1.2.0",
     "postcss-loader": "^2.0.6",
-    "rocket-portal": "^1.0.3",
+    "rocket-portal": "^1.1.4",
     "sass-loader": "^6.0.6",
     "shelljs": "^0.7.0",
     "style-loader": "^0.18.2",
